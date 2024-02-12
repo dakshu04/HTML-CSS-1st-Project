@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+#nav-part1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav h3 {
+  font-size: 17px;
+  border: 1.5px solid black;
+  font-weight: 500;
+  padding: 2px 10px;
+  border-radius: 50px;
+}
+
+#nav i {
+  font-size: 17px;
+  border: 1.5px solid black;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 50px;
+}
+
+#nav h1 {
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+#nav button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 12px;
+  border-radius: 50px;
+}
+
+#btn2 {
+  border: none;
+  color: white;
+  background-color: orangered;
+}
+
+#main > h1 {
+  /* h1 - main k direct andar jo h1 h usse target karna h*/
+  font-size: 120px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center; /* it is used for y axis center*/
+  display: flex; /* it is used for x axis center*/
+  justify-content: center;
+}
+
+img {
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+#model1 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#model2 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#model3 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#model4 {
+  transform: translate(-50%, -50%);
+}
+
+#btm-left {
+  position: absolute;
+  bottom: 5%;
+  left: 2.5%;
+}
+
+#btm-right {
+  position: absolute;
+  bottom: 5%;
+  right: 2.5%;
+}
+
+#insta {
+  position: absolute;
+  bottom: 9%;
+  right: 9%;
+  font-weight: 500;
+}
+
+#yt {
+  position: absolute;
+  bottom: 9%;
+  right: 7%;
+  font-weight: 500;
+}
+
+#fb {
+  position: absolute;
+  bottom: 9%;
+  right: 5%;
+  font-weight: 500;
+}
+
+#semi-circle {
+  position: absolute;
+  width: 100px; /* Adjust the size as needed */
+  height: 50px; /* Half of the width to create a semi-circle */
+  border: 0.25px solid black;
+  border-radius: 100px 100px 0 0; /* Border-radius to create a semi-circle shape */
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#down {
+  font-size: 25px; /* Adjust the font size as needed */
+  bottom: 9%;
+  position: absolute;
+  bottom: 1.5%;
+  left: 49.15%;
+}
